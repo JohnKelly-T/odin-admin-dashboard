@@ -48,6 +48,7 @@ button:hover {
     padding: 1.5rem;
 
     background-color: var(--light-background-color);
+    box-shadow: 4px 0 4px black;
 
     font-weight: bold;
 }
@@ -165,6 +166,7 @@ input[name="search"] {
     border-radius: 5px;
 
     background: linear-gradient(120deg, #FC4A36 0%, #B521A4 35%, #6169D0 68%, #06B8FF 100%);
+    box-shadow: 4px 4px 4px black;
     font-weight: bold;
 }
 
@@ -232,6 +234,7 @@ input[name="search"] {
 
     border-radius: 5px;
     background-color: var(--light-background-color);
+    box-shadow: 4px 4px 4px black;
 }
 
 .card-bar {
@@ -273,4 +276,5 @@ input[name="search"] {
     background-color: var(--light-background-color);
     height: 300px;
     border-radius: 5px;
+    box-shadow: 4px 4px 4px black;
 }
