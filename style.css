@@ -274,7 +274,24 @@ input[name="search"] {
 
 .news-section-card {
     background-color: var(--light-background-color);
-    height: 300px;
     border-radius: 5px;
     box-shadow: 4px 4px 4px black;
+}
+
+.announcements-card {
+    display: grid;
+    gap: 1rem;
+    padding: 1.5rem;
+
+    font-size: 0.8rem;
+}
+
+.announcement-title {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.divider {
+    border-top: 1px solid gray;
 }
