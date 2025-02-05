@@ -357,3 +357,26 @@ input[name="search"] {
 .user-project {
     filter: brightness(60%);
 }
+
+.footer {
+    display: grid;
+    gap: 0.5rem;
+    background-color: var(--light-background-color);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+
+    font-size: 0.8rem;
+}
+
+#credits-github-link {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: 0.5rem;
+
+    font-weight: bold;
+}
+
+.footer a img {
+    width: 1.5rem;
+}
