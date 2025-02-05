@@ -17,7 +17,15 @@
 body {
     background-color: var(--background-color);
     display: grid;
-    grid-template: auto 1fr / clamp(150px, 30%, 250px) 5fr 1.5fr;
+    grid-template: auto 1fr / clamp(150px, 30%, 250px) 2.5fr 1fr;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .small-icon {
@@ -234,5 +242,15 @@ input[name="search"] {
 }
 
 .news-section {
-    background-color: #8e8e8e;
+    display: grid;
+    align-content: start;
+    padding: 1.5rem;
+    padding-left: 0;
+    gap: 1rem;
+}
+
+.news-section-card {
+    background-color: var(--light-background-color);
+    height: 300px;
+    border-radius: 5px;
 }
