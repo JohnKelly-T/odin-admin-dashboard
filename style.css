@@ -31,6 +31,23 @@ button:hover {
 
 .small-icon {
     width: 2rem;
+    transition: all 0.3s ease-in;
+}
+
+.eye-icon:hover {
+    transform: scale(1.3);
+}
+
+@keyframes shake {
+    0% {transform: rotate(-30deg);}
+    25% {transform: rotate(30deg);}
+    50% {transform: rotate(-30deg);}
+    75% {transform: rotate(30deg);}
+}
+
+.github-icon:hover {
+    animation-name: shake;
+    animation-duration: 1s;
 }
 
 .logo {
