@@ -1,0 +1,51 @@
+:root {
+    --background-color: #050505;
+    --light-background-color: #151515;
+
+    --header-color: rgba(21, 21, 21, 0.5);
+
+    --primary-color-1: #D124BD;
+    --primary-color-2: #FC4A36;
+    --primary-color-3: #06B8FF;
+}
+
+* {
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: var(--background-color);
+    display: grid;
+    grid-template: auto 1fr / 1fr 4fr 1.5fr;
+}
+
+.small-icon {
+    width: 2rem;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.sidebar {
+    grid-row: 1 / -1;
+
+    height: 100vh;
+    padding: 1rem;
+
+    background-color: var(--light-background-color);
+}
+
+.header {
+    grid-column: 2 / -1;
+
+    height: fit-content;
+    padding: 1rem;
+
+    background-color: var(--header-color);
+}
+
+.news-section {
+    background-color: #8e8e8e;
+}
