@@ -17,7 +17,7 @@
 body {
     background-color: var(--background-color);
     display: grid;
-    grid-template: auto 1fr / 1fr 4fr 1.5fr;
+    grid-template: auto 1fr / clamp(150px, 30%, 250px) 5fr 1.5fr;
 }
 
 .small-icon {
@@ -30,11 +30,46 @@ body {
 
 .sidebar {
     grid-row: 1 / -1;
+    display: grid;
+    align-content: start;
+    gap: 1.5rem;
 
     height: 100vh;
-    padding: 1rem;
+    padding: 1.5rem;
 
     background-color: var(--light-background-color);
+
+    font-weight: bold;
+}
+
+.logo-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo-container span {
+    font-size: 1.3rem;
+}
+
+.menu-list {
+    display: grid;
+    gap: 0.5rem;
+
+    padding: 0;
+    padding-left: 0.5rem;
+
+    list-style-type: none;
+}
+
+.menu-list li a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 0.5rem;
+
+    text-decoration: none;
 }
 
 .header {
