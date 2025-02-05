@@ -126,6 +126,36 @@ input[name="search"] {
     width: 2.5rem;
 }
 
+.content-section {
+    padding: 1.5rem;
+}
+
+.banner {
+    display: grid;
+    grid-template: 1fr / auto 1fr;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem 1.5rem;
+    height: 8rem;
+    border-radius: 5px;
+
+    background: linear-gradient(120deg, #FC4A36 0%, #B521A4 35%, #6169D0 68%, #06B8FF 100%);
+    font-weight: bold;
+}
+
+.large-profile-picture {
+    width: 5rem;
+}
+
+.welcome-message {
+    font-size: 1.2rem;
+}
+
+.username {
+    font-size: 1.5rem;
+}
+
 .news-section {
     background-color: #8e8e8e;
 }
