@@ -127,6 +127,9 @@ input[name="search"] {
 }
 
 .content-section {
+    display: grid;
+    align-content: start;
+    gap: 1.5rem;
     padding: 1.5rem;
 }
 
@@ -155,6 +158,39 @@ input[name="search"] {
 .username {
     font-size: 1.5rem;
 }
+
+.project-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    justify-content: end;
+    gap: 1rem;
+}
+
+.action-button {
+    border: none;
+    border-radius: 10px;
+
+    font-weight: bold;
+}
+
+#new-button {
+    background-color: var(--primary-color-1);
+}
+
+#upload-button {
+    background-color: var(--primary-color-2);
+}
+
+
+#share-button {
+    background-color: var(--primary-color-3);
+}
+
 
 .news-section {
     background-color: #8e8e8e;
