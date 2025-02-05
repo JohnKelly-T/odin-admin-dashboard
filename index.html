@@ -66,9 +66,22 @@
     </div>
 
     <div class="header">
-      <a href="">
-        <img src="./img/placeholder.png" alt="" class="small-icon">
-      </a>
+      <form action="/search" method="get">
+        <input type="text" name="search" placeholder="Search...">
+        <button type="submit" class="search-button"></button>
+      </form>
+
+      <div class="profile-section">
+        <a href="#messages">
+          <img src="./img/placeholder.png" alt="Messages Icon" class="small-icon">
+        </a>
+        <a href="#alerts">
+          <img src="./img/placeholder.png" alt="Alerts Icon" class="small-icon">
+        </a>
+        <a href="#profile" id="profile-link">
+          <img src="./img/placeholder.png" alt="Profile picture" class="profile-picture">
+        </a>
+      </div>
     </div>
 
     <div class="content-section"></div>
