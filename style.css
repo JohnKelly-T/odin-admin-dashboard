@@ -37,6 +37,8 @@ button:hover {
 }
 
 .sidebar {
+    position: sticky;
+    top: 0;
     grid-row: 1 / -1;
     display: grid;
     align-content: start;
@@ -84,6 +86,8 @@ button:hover {
 }
 
 .header {
+    position: sticky;
+    top: 0;
     grid-column: 2 / -1;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -92,6 +96,7 @@ button:hover {
     padding: 1rem 1.5rem;
 
     background-color: var(--header-color);
+    backdrop-filter: blur(10px) brightness(80%);
 }
 
 .header form {
