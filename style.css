@@ -29,6 +29,10 @@ button:hover {
     cursor: pointer;
 }
 
+.site-name {
+    font-weight: bold;
+}
+
 .small-icon {
     width: 2rem;
     transition: all 0.3s ease-in;
@@ -69,7 +73,7 @@ button:hover {
     background-color: var(--light-background-color);
     box-shadow: 4px 0 4px black;
 
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .logo-container {
