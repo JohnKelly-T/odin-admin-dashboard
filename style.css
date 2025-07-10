@@ -256,7 +256,6 @@ input[name="search"] {
     position: relative;
     display: grid;
     grid-template-columns: 5px 1fr;
-    grid-auto-rows: 250px;
     border-radius: 5px;
     box-shadow: 4px 4px 4px black;
 }
